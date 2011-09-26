@@ -2,4 +2,7 @@ This is basically a clone of epio-skel (https://github.com/idangazit/epio_skel/)
 
 * added redis based sessions and celery
 * you start out with a homepage, 404 and HTML5 boilerplate
-* and some minor tweaks...
+* better, i think, defaults in epio.ini
+* and more minor tweaks...
+
+I like these defaults. Bu this might not be best for your project, just sayin'

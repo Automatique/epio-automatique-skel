@@ -8,7 +8,6 @@ lxml
 unipath
 django-templated-email
 django-celery
-requests==0.4
 django-redis-cache
 git+https://github.com/martinrusev/django-redis-sessions
 git+https://github.com/Automatique/django-postmark

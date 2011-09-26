@@ -1,10 +1,10 @@
 from fabric.api import local, env
 
 def production():
-    env['epioapp'] = 'chummee'
+    env['epioapp'] = 'your-app-name-here'
 
 def staging():
-    env['epioapp'] = 'chummee' # staging epio instance
+    env['epioapp'] = 'your-app-name-here' # staging epio instance
 
 def epio(commandstring):
     local("epio {0} -a {1}".format(
