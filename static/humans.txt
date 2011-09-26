@@ -1,0 +1,10 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Web agency: Automatique
+  Lead Developer: Tijs Teulings, @_tijs
+  Site: http://automatique.nl
+
+/* THANKS */
+  Names (& URL):

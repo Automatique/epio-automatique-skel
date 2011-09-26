@@ -1,0 +1,7 @@
+*.pyc
+*.pyo
+*.swp
+*.un~
+*.db
+.idea
+static_root
