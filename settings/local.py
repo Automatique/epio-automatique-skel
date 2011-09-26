@@ -25,11 +25,11 @@ CACHES = {
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 #EMAIL_HOST = 'smtp.postmarkapp.com'
 #EMAIL_PORT = '2525'
-#EMAIL_HOST_USER = 'ac46783e-31bd-4c35-a50e-f8c83c43e62b'
-#EMAIL_HOST_PASSWORD = 'ac46783e-31bd-4c35-a50e-f8c83c43e62b'
+#EMAIL_HOST_USER = 'USERNAME'
+#EMAIL_HOST_PASSWORD = 'PASSWORD'
 POSTMARK_TEST_MODE=True
 EMAIL_BACKEND = "postmark.backends.PostmarkBackend"
-POSTMARK_API_KEY = 'ac46783e-31bd-4c35-a50e-f8c83c43e62b'
+POSTMARK_API_KEY = 'API-KEY'
 
 # Celery cofiguration
 BROKER_HOST = "localhost"

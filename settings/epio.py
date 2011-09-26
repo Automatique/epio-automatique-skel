@@ -30,12 +30,12 @@ CACHES = {
 }
 
 # Use Postmark for email
-EMAIL_APP_FROM = "info@iknewitapp.com"
+EMAIL_APP_FROM = "info@automatique.com"
 POSTMARK_TEST_MODE=False
-POSTMARK_API_USER = "iknewit"
-POSTMARK_API_PASSWORD = "zeeman"
+POSTMARK_API_USER = "USERNAME"
+POSTMARK_API_PASSWORD = "PASSWORD"
 EMAIL_BACKEND = "postmark.backends.PostmarkBackend"
-POSTMARK_API_KEY = '20cf2668-ea9e-453a-89b2-05081b1a58d8'
+POSTMARK_API_KEY = 'API-KEY'
 
 # Celery configuration
 CELERY_RESULT_BACKEND = "redis"

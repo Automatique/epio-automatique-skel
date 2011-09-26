@@ -10,7 +10,7 @@ sys.path.append('lib')
 PROJECT_DIR = Path(__file__).absolute().ancestor(2)
 
 ADMINS = (
-    ("Tijs Teulings", "tijs@automatique.nl"),
+    ("Tijs Teulings", "info@automatique.nl"),
 )
 
 MANAGERS = ADMINS
@@ -77,7 +77,6 @@ INSTALLED_APPS = (
 
     # tools
     'south',
-    'debug_toolbar',
     'djcelery',
     'epio_commands',
 
@@ -99,10 +98,10 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 # Setup for templated-email app
-EMAIL_APP_FROM = 'tijs@automatique.nl'
+EMAIL_APP_FROM = 'info@automatique.nl'
 TEMPLATED_EMAIL_BACKEND = 'templated_email.backends.vanilla_django.TemplateBackend'
 TEMPLATED_EMAIL_DJANGO_SUBJECTS = {
-#        'new_prediction' : 'Somebody predicted one of your topics in I Knew It',
+#        'key' : 'title',
       }
 
 LOGGING = {
@@ -126,7 +125,7 @@ LOGGING = {
 # Celery config
 CELERY_IGNORE_RESULT = True
 CELERY_DISABLE_RATE_LIMITS = True
-#CELERY_IMPORTS = ("predictions.tasks", "scoreboard.tasks", )
+#CELERY_IMPORTS = ("foo.tasks", "bar.tasks", )
 
 # Cached sessions
 SESSION_ENGINE = "django.contrib.sessions.backends.cached_db"
