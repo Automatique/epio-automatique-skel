@@ -1,0 +1,5 @@
+This is basically a clone of epio-skel (https://github.com/idangazit/epio_skel/) but with some extra tweaks:
+
+* added redis based sessions and celery
+* you start out with a homepage, 404 and HTML5 boilerplate
+* and some minor tweaks...
